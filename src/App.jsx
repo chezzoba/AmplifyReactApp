@@ -1,7 +1,7 @@
 import './App.css';
 
 const reactAppVariable = process.env.REACT_APP_ENV;
-const secrets = JSON.parse(process.env.REACT_APP_SECRET) || "None";
+const secrets = JSON.parse(process.env.REACT_APP_SECRET) || "Not Available";
 const amplifyEnvironmentVariable = process.env.REACT_APP_AMPLIFY_VAR;
 const ssmEnvironmentVariable = process.env.REACT_APP_SSM_VAR;
 
